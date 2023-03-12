@@ -5,62 +5,256 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Simone Maccarone, Software Develore For Hire</title>
+    
 </head>
 <!----------------------------------------------------------------------------->
 <body>
-    <link rel="stylesheet" href="style.css">
     <header class="sfondo">
-        <center>
-            
             <h1 class="title">Simone Maccarone</h1>
             <p class="subtitle">experienced software developer for hire</p>
             
             <p class="subtitle">
-                " Genova,GE "
-                " pronomi: "
+                Genova,GE 
+                pronomi:
                 <i>Lui/Loro</i>
             </p>
             <nav>
-                <a href="mailto:maccasimo@supermail.com" rel="me">email</a> <!--CI VUOLE LA CORNICE -->
+                <button id="button">
+                    <a href="mailto:maccasimo@supermail.com" rel="me">email</a> <!--CI VUOLE LA CORNICE -->
+                </button>                  
             </nav>
-            <br>
-            
-        </center>
+            <br><br>
     </header>
     <hr>
 
-    <main>
-        <div class="sfondo"></div>
-        <section>
-            <div>     
-                <center> 
-                    <h2>Oveview</h2>
-                    <p>
-                        I’m an experienced individual contributor with 
-                        a broad technological repertoire: a jack
-                        of many trades that has mastered a few.
-                        Not only can I contribute 
-                        to architecture design
-                        and implement new features, 
-                        but I’m also a relentless debugger,
-                        doing whatever it takes to troubleshoot bu
-                        gs others might dismiss as unsolvable.
-                    </p>
-                </center>
-            </div>
-        </section>
-    <hr>
-        <section>
-            <div>
-                <center>
-                    <h2>Content</h2>
-                    
+<!----------------------------------------------------------------------------->
 
-                </center>
-            </div>
-        </section>  
+    <main id="content">
+        <section>
+            <br> <br>
+            <h2 class="not-toc">Oveview</h2>
+                <p>
+                 I’m an experienced individual contributor with 
+                 a broad technological repertoire: a jack
+                 of many trades that has mastered a few.
+                 Not only can I contribute 
+                 to architecture design
+                 and implement new features, 
+                 but I’m also a relentless debugger,
+                 doing whatever it takes to troubleshoot bu
+                 gs others might dismiss as unsolvable.
+                </p>
+        </section>
+        <hr>
+    <!--////////////////////-->
+    <h2>Contents</h2>
+        <ul>
+            <!-- Prima sezione-->
+            <li><a href="#availability">Availability</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#tools-languuages-and-frameworks">Tools, Languages, and Frameworks</a>
+            <ul class="toc">
+                <li><a href="#microsoft">Microsoft</a></li>
+
+                <li><a href="#oracle">Oracle</a></li>
+  
+                <li><a href="#cloud-platforms">Cloud Platforms</a></li>
+  
+                <li><a href="#web-development">Web Development</a></li>
+  
+                <li><a href="#foss-tools">FOSS tools</a></li>
+  
+                <li><a href="#unix-like-operating-systems">UNIX-like Operating Systems</a></li>
+              </ul>
+            </li>
+            <!-- Seconda sezione-->
+            <li><a href="#interests">Interests</a></li>
+
+            <li><a href="#how-to-hire-me">How to Hire Me</a></li>
+
+            <li><a href="#compensation">Compensation</a></li>
+
+            <li><a href="#location-preferences">Location Preferences</a></li>
+
+            <li><a href="#about-this-website">About This Website</a></li>
+        </ul>
+        <hr>
+                <!--/////////   Availability   ///////////-->
+        <section>
+            <h2 id="Availability">Availability</h2>
+            <p>
+                I'm open to new opportunities. If you're a hiring manager or 
+                a developer in need of a referral bonus, 
+                please contact me. No third-party recruiters, please.
+            </p>
+        </section>
+
+        <a href="./index.html" class="backto">»back to top«</a> <br> <hr>
+
+                <!--/////////// Experience  /////////-->
+
+        <section>
+            <h2 id="Experience">Experience</h2> <br>
+        <table>
+            <colgroup id="tabella1" span="5"></colgroup>
+            <thead>
+                <tr><th>tenure</th>            <th> employer</th>                           <th>location</th>                         <th>wage</th></tr>
+            </thead>
+            <tbody>
+            <tr><td>2015-present</td>      <td>Deloitte Consulting</td>                 <td>Mechanicsburg, PA</td>                <td>$97,000</td></tr>
+            <tr><td>2011-2015</td>         <td>TEKsystems</td>                          <td>Harrisburg, PA	</td>                 <td>$25/hour</td></tr>
+            <tr><td>2010-2011</td>         <td>Computer Aid, Inc</td>                   <td>Harrisburg, PA</td>                   <td>40,000</td></tr>
+            <tr><td>2009-2010</td>         <td>Conduit Internet Technologies</td>       <td>State College, PA	</td>             <td>$20/hour</td></tr>
+            <tr><td>2000-2009</td>         <td>Quality Data Service</td>                <td>Waterbury, CT</td>                    <td>$42,000</td></tr>
+        </tbody>
+        </table>   <br>   
+        <a href="./index.html" class="backto">»back to top«</a> <br> <br> <hr>
+        </section>
+        
+                <!-- /////////tools-languuages-and-frameworks/////////// -->
+
+        <section>
+            <h2 id="tools-languuages-and-frameworks">Tools Languuages and Frameworks</h2> <br>
+            <p>I started my professional career as a developer of Windows 
+                desktop applications and dabbled in UNIX-like systems and FOSS in my free time, 
+                but that private dabbling has served me in good stead as I’ve transitioned to a full-stack developer.
+            </p>
+            <details open>
+                <summary> a note on COBOL</summary>
+                <p>
+                    While I haven’t figured out where to fit it in the lists below, I am also familiar enough with COBOL to read 
+                    existing programs and re-implement them as C# and .NET web applications. 
+                    If you’re looking for an experienced developer willing to dig deeper into COBOL, please contact me.
+                </p>
+                <p>
+                    In addition to IBM System/360 COBOL with JCL, I have also worked with 
+                    MicroFocus COBOL and tinkered with GNU COBOL at home.
+                </p>
+            </details>
+        </section>
+                <!-- ////////// Microsoft    ////////// -->
+        <section>
+            <h3 id="Microsoft">Microsoft</h3>
+            <ul class="multi-column">
+                <li>.NET Framework</li>
+                <li>.NET Core</li>
+                <li>Microsoft SQL Server</li>
+                <li>SQL Server Stored Procedures</li>
+                <li>SQL Server Integration Services</li>
+                <li>LINQ</li>
+                <li>Entity Framework</li>
+                <li>TypeScript</li>
+                <li>IIS</li>
+                <li>WCF</li>
+                <li>ASP.NET</li>
+                <li>ASP.NET Web API</li>
+            </ul><br>
+            <details open>
+                <summary> a note on Visual Basic</summary>
+                <p>While I can also cope with Visual Basic 6 and Visual Basic.NET,
+                    I prefer to avoid the use of these languages because the former 
+                    is dead and the latter has no future.
+                </p>
+            </details>
+
+                <!-- //////////  Oracle   ////////// -->
+
+            <h3 id="Oracle">Oracle</h3>
+            <ul class="multi-column">
+                <li> Oracle 19c</li>
+                <li>PL/SQL</li>
+                <li>MYSQL 8.x</li>
+            </ul>
+
+                <!-- //////////  Cloud Platforms    ////////// -->
+
+            <h3 id="Cloud Platforms">Cloud Platforms</h3>
+            <ul class="multi-column">
+                <li> Amazon Web Services</li>
+                <li>Amazon S3
+                </li>
+                <li>Salesforce</li>
+                <li>Vultr</li>
+                <li>Microsoft Azure</li>
+                <li>Travis CI</li>
+            </ul>
+
+                <!-- //////////  Web Development    ////////// -->
+
+                <h3 id="Web Development"> Web Development</h3>
+            <ul class="multi-column">
+                <li>HTML 5</li>
+                <li> ACSS 3</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>JQuery</li>
+                <li>Bootstrap</li>
+                <li>U.S. Web Design System (USWDS)</li>
+                <li>React</li>
+                <li>Vue.JS</li>
+                <li>PHP</li>
+                <li>WordPress</li>
+                <li>Axios</li>
+                <li>Web Services</li>
+                <li>Jekyll</li>
+                </ul>
+
+                <!-- //////////  FOSS tools     ////////// -->
+
+            <h3 id="FOSS tools">FOSS tools</h3>
+            <ul class="multi-column">
+                <li> GNU Emacs</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+
+            <!-- //////////  UNIX-like Operating Systems     ////////// -->
+
+            <h3 id="UNIX-like Operating Systems">FUNIX-like Operating Systems</h3>
+            <ul class="multi-column">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        <br><a href="./index.html" class="backto">»back to top«</a> <br> <br> <hr>
+        </section>
+
+            <!-- //////////  Interests     ////////// -->
+
+    <section>
+        <h2 id="Interests">Interests</h2>
+        <p>
+            When I’m not working, I enjoy reading/writing speculative fiction, 
+            tinkering with UNIX-like systems, building hand-made static websites 
+            (like this one), learning French, weightlifting, listening to jazz/Eur
+            opean classical music/progressive rock/heavy metal, and playing video games (mainly RPGs). 
+            I still sometimes play the bass guitar and viola, 
+            and I’ve heard all the jokes about the latter.
+        </p>
+        <br><a href="./index.html" class="backto">»back to top«</a> <br> <br> <hr>
+    </section>
+        
+
+        
+
     
+
     
     
     
@@ -89,13 +283,16 @@
     </main>
 <!------------------------------------------------------------------------->
     <footer class="sfondo">
-        <center><hr>
+        <hr> <br>
+        <cite>
+
             © 2023 Simone Maccarone <br>
             <small>
                 Made with ♥ in Genova,GE <br>
-                created by " My Hands 🖐😀 "<br>
+                uses <a href="https://simplecss.org/" target="_blank" rel="noopener noreferrer">Simple CSS</a>
+                by <a href="http://kevq.uk/" target="_blank" rel="noopener noreferrer">Kev Quirk</a> <br>
             </small>
-        </center>
+        </cite>
     </footer>
 
 </body>
